@@ -42,7 +42,7 @@
 ## ❯ Install
 
 ```
-$ npm install --save prompts
+$ npm install --save prompts-unicode
 ```
 
 > This package supports Node 6 and above
@@ -54,7 +54,7 @@ $ npm install --save prompts
 <img src="https://github.com/terkelg/prompts/raw/master/media/example.gif" alt="example prompt" width="499" height="103" />
 
 ```js
-const prompts = require('prompts');
+const prompts = require('prompts-unicode');
 
 (async () => {
   const response = await prompts({
@@ -81,7 +81,7 @@ const prompts = require('prompts');
 Prompt with a single prompt object. Returns an object with the response.
 
 ```js
-const prompts = require('prompts');
+const prompts = require('prompts-unicode');
 
 (async () => {
   const response = await prompts({
@@ -100,7 +100,7 @@ Prompt with a list of prompt objects. Returns an object with the responses.
 Make sure to give each prompt a unique `name` property to prevent overwriting values.
 
 ```js
-const prompts = require('prompts');
+const prompts = require('prompts-unicode');
 
 const questions = [
   {
@@ -134,7 +134,7 @@ Prompt properties can be functions too.
 Prompt Objects with `type` set to `falsy` values are skipped.
 
 ```js
-const prompts = require('prompts');
+const prompts = require('prompts-unicode');
 
 const questions = [
   {
@@ -228,7 +228,7 @@ Powerful when combined with arguments of process.
 
 **Example**
 ```js
-const prompts = require('prompts');
+const prompts = require('prompts-unicode');
 prompts.override(require('yargs').argv);
 
 (async () => {
@@ -272,7 +272,7 @@ If a value is an instance of `Error` it will simulate the user cancelling/exitin
 
 **Example:**
 ```js
-const prompts = require('prompts');
+const prompts = require('prompts-unicode');
 
 prompts.inject([ '@terkelg', ['#ff0000', '#0000ff'] ]);
 
