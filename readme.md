@@ -2,7 +2,7 @@
   <img src="https://github.com/terkelg/prompts/raw/master/prompts.png" alt="Prompts" width="500" />
 </p>
 
-<h1 align="center">❯ Prompts</h1>
+<h1 align="center">❯ Prompts Unicode</h1>
 
 <p align="center">
   <a href="https://npmjs.org/package/prompts">
@@ -24,6 +24,11 @@
 <p align="center">
   <b>Lightweight, beautiful and user-friendly interactive prompts</b><br />
   <sub>>_ Easy to use CLI prompts to enquire users for information▌</sub>
+</p>
+
+<p align="center">
+  <b>Original repository: <a href="https://github.com/terkelg/prompts">terkelg/prompts</a></b><br /><br />
+  <b>This alternative version of prompts allows unicode on windows by adding extra validations</b>
 </p>
 
 <br />
